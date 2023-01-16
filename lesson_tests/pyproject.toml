@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lesson-tests"
+version = "0.1.0"
+description = ""
+authors = ["Lev Krasnov <leevakrasnov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "lesson_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

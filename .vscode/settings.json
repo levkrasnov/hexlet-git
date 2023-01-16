@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./lesson_tests1/one"
+    ]
+}
